@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "B Yekan",sans-serif;
+}
+
+body {
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.action {
+}
+
+.profile {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    opacity: 0;
+    border:2px solid ;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.menu li {
+    list-style: none;
+    display: flex;
+    align-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu img{
+    width: 24px;
+    height: 24px;
+}
+
+.menu.active{
+    opacity: 1;
+}
